@@ -1,0 +1,5 @@
+# Optional dependency only for publication-quality figure rendering; core experiments do not require it.
+matplotlib==3.10.8
+
+# Optional PNG export for the textbook training traces.
+Pillow>=10

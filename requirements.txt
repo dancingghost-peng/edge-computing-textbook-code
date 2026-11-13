@@ -1,0 +1,2 @@
+# Core experiments use only the Python standard library; no third-party package is required.
+# Optional SVG-to-PNG conversion for manuscript figures can use CairoSVG outside the runtime package.

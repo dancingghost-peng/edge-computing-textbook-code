@@ -1,0 +1,36 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# New experiment outputs; retain the three original reference directories
+/results/*
+!/results/ch13/
+!/results/reference_ch13/
+!/results/textbook_verified/
+
+# Manuscript and temporary files
+~$*
+*.docx
+*.doc
+*.log
+
+# Chapter 1 generated calculations
+/chapter01/latency_results.csv
+/chapter01/calculation_record.json
+/chapter01/sensitivity_results.csv

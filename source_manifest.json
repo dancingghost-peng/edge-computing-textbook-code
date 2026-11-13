@@ -1,0 +1,685 @@
+{
+  "source_archive": "最终修订版/第13章_配套代码.zip",
+  "source_archive_sha256": "b8df51e5f8364fc321c5561bdbf294d8c84fe6956ef15ff7810568b4d0214dd2",
+  "package_version": "1.4.1-ch13-r3",
+  "prepared_date": "2026-11-13",
+  "python_sources_modified": false,
+  "copied_files": [
+    {
+      "archive_path": "第十三章实验包/audit_ch13.py",
+      "repository_path": "audit_ch13.py",
+      "sha256": "6984ca71690c922d58f3c71841b6962efc327bc7dc388d62fbc9bbd152299a63"
+    },
+    {
+      "archive_path": "第十三章实验包/CH13_README.md",
+      "repository_path": "CH13_README.md",
+      "sha256": "5064a4db72ac60c88a4460a6edfb557e458151b332f95508672833aebb4b8f00"
+    },
+    {
+      "archive_path": "第十三章实验包/CHANGELOG_COMMON_5CHAPTERS.md",
+      "repository_path": "CHANGELOG_COMMON_5CHAPTERS.md",
+      "sha256": "ffa5a447125f95522a04f495eec4de989b43544c69aaef54764f041f493c513f"
+    },
+    {
+      "archive_path": "第十三章实验包/CHANGELOG_PRIORITY1.md",
+      "repository_path": "CHANGELOG_PRIORITY1.md",
+      "sha256": "5c8628b9f2179a61e626314e7aea4356af262b050c84c554ed3e6a7726dd95f8"
+    },
+    {
+      "archive_path": "第十三章实验包/CHANGELOG_SINGLE_MACHINE.md",
+      "repository_path": "CHANGELOG_SINGLE_MACHINE.md",
+      "sha256": "fa737fa99f0faca1f3649faa33c65db696ee40f030d9837404c97d3d356771a2"
+    },
+    {
+      "archive_path": "第十三章实验包/configs/base.json",
+      "repository_path": "configs/base.json",
+      "sha256": "cf147b8e3690fa3ea778fa4373939b9c16a86972cb372af64550eb83d9ac6d7a"
+    },
+    {
+      "archive_path": "第十三章实验包/configs/chapter11.json",
+      "repository_path": "configs/chapter11.json",
+      "sha256": "0368c3b00377569f6f7d9ae48d586e522ceda5ed3acd953b3b068756b90fa3b7"
+    },
+    {
+      "archive_path": "第十三章实验包/configs/chapter12.json",
+      "repository_path": "configs/chapter12.json",
+      "sha256": "b0ae5e207fe956165279124f874a9a80a985d989e1f29b87ad1e792082854e66"
+    },
+    {
+      "archive_path": "第十三章实验包/configs/chapter4.json",
+      "repository_path": "configs/chapter4.json",
+      "sha256": "faa2d59b161ddd68633e7c20e08d59d8b681c50ef852df8bbb309cada0074654"
+    },
+    {
+      "archive_path": "第十三章实验包/configs/chapter5.json",
+      "repository_path": "configs/chapter5.json",
+      "sha256": "d080ab0c0a4fa3ec3fdf117334996519c467414c97fe842a44074a5c1ed6e374"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter11_partition.csv",
+      "repository_path": "data/chapter11_partition.csv",
+      "sha256": "7cce2e5341947ddbcfdc4ba05bdf8502955321aa9d2f0cc193c6480708444d39"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter12_candidates.csv",
+      "repository_path": "data/chapter12_candidates.csv",
+      "sha256": "95722c0da3fad25b93fb08e8d2be5c80208ab2d126a59c87ae1ad39cdfca91b4"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter12_nodes.csv",
+      "repository_path": "data/chapter12_nodes.csv",
+      "sha256": "7b0a2e9fd6c389c5a7559a2bf6a39cc5406cb4cc4679bd6fce8523eebd57c734"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter12_tasks.csv",
+      "repository_path": "data/chapter12_tasks.csv",
+      "sha256": "a2b8dc5ee6f2df1d580755d0f4f70a246b976a3227f108cc6ff1d67d14e750b6"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter4_assignments.csv",
+      "repository_path": "data/chapter4_assignments.csv",
+      "sha256": "1d73fef0579f7e3c87173ca9847d8aa35ddbb739a9ada1036bd7b1f24112cab8"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter4_candidates.csv",
+      "repository_path": "data/chapter4_candidates.csv",
+      "sha256": "3bc72c8a516330d2d872eaf2a532f7fe1fddc082cb1bbe254d5c7518bd671c20"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter4_nodes.csv",
+      "repository_path": "data/chapter4_nodes.csv",
+      "sha256": "278f56a8e6281d6cf13cffc0c308d2d50fcd73f7800811019d2565d1905a4925"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter4_tasks.csv",
+      "repository_path": "data/chapter4_tasks.csv",
+      "sha256": "589103a88ef7e175b43773f9f4c43010312d723d45c3a2c1e4c3f31aec940eeb"
+    },
+    {
+      "archive_path": "第十三章实验包/data/chapter5_dvfs.csv",
+      "repository_path": "data/chapter5_dvfs.csv",
+      "sha256": "55f546a9aec5dcf7b36241d6e8192ca056ff8a67872d1e64decdf0c4b2a6516a"
+    },
+    {
+      "archive_path": "第十三章实验包/data/event_timeline_example.csv",
+      "repository_path": "data/event_timeline_example.csv",
+      "sha256": "d4bd4687b59324567577ee9d7b2b9970945d13cc66e3c0fb666f3841ff6cad26"
+    },
+    {
+      "archive_path": "第十三章实验包/data/hand_check_5_tasks.csv",
+      "repository_path": "data/hand_check_5_tasks.csv",
+      "sha256": "878d3070852d1299f5fbf4971c168ee03df5ec17fa5d9f9b3d607231532c8352"
+    },
+    {
+      "archive_path": "第十三章实验包/data/migration_trace.csv",
+      "repository_path": "data/migration_trace.csv",
+      "sha256": "f4a693e357cf908ab742d67fc503d017d4f44c68e308a4d272ff30f278c65092"
+    },
+    {
+      "archive_path": "第十三章实验包/data/resource_tasks.csv",
+      "repository_path": "data/resource_tasks.csv",
+      "sha256": "b3138d517ef7c4ffd02c2ddb77fcd7a6d3c922991d03293f78f988dff118b762"
+    },
+    {
+      "archive_path": "第十三章实验包/data/single_machine_service_test_record_template.csv",
+      "repository_path": "data/single_machine_service_test_record_template.csv",
+      "sha256": "75cf99a32cc596b7f7ad3c2b1cec5f4cddf50407e5a8f40c6d20e08ab5fe3c94"
+    },
+    {
+      "archive_path": "第十三章实验包/data/tasks_test_medium.csv",
+      "repository_path": "data/tasks_test_medium.csv",
+      "sha256": "4c0fc9cdfe9e56cf0ba6d7342ce8446232307d05938d46c75a02f798aca3bdf0"
+    },
+    {
+      "archive_path": "第十三章实验包/data/tasks_低负载.csv",
+      "repository_path": "data/tasks_低负载.csv",
+      "sha256": "5f123d214bd2252b678ce649c8852bb7842430319659c8ad7d7d55ad91647937"
+    },
+    {
+      "archive_path": "第十三章实验包/data/tasks_接近饱和.csv",
+      "repository_path": "data/tasks_接近饱和.csv",
+      "sha256": "9ea0f19e71062500b6d1986790e79d242836be98ac902533fb002e60d61ae48e"
+    },
+    {
+      "archive_path": "第十三章实验包/data/tasks_过载.csv",
+      "repository_path": "data/tasks_过载.csv",
+      "sha256": "77ca808994392cf5e705a758fa97458d2e09b1ed119a74e866de6853dd228909"
+    },
+    {
+      "archive_path": "第十三章实验包/docs/SINGLE_MACHINE_SERVICE_TEST_GUIDE.md",
+      "repository_path": "docs/SINGLE_MACHINE_SERVICE_TEST_GUIDE.md",
+      "sha256": "be51a769693d9d7da9117b12396663935189521cbcae108c2120cb9722771079"
+    },
+    {
+      "archive_path": "第十三章实验包/edge_server.py",
+      "repository_path": "edge_server.py",
+      "sha256": "25c838c2f25b4cc13d7dc9a85478b9ba5c8967ed9c323cdf8b8c3e4fcc7d01ed"
+    },
+    {
+      "archive_path": "第十三章实验包/environment/README.md",
+      "repository_path": "environment/README.md",
+      "sha256": "b770c829740d52dcae843f64474d1b9a2d8dc6ae98924292ed359be942d0b5ad"
+    },
+    {
+      "archive_path": "第十三章实验包/README.md",
+      "repository_path": "ORIGINAL_README.md",
+      "sha256": "5064a4db72ac60c88a4460a6edfb557e458151b332f95508672833aebb4b8f00"
+    },
+    {
+      "archive_path": "第十三章实验包/real_probe.py",
+      "repository_path": "real_probe.py",
+      "sha256": "70e1839b1936b83ca56e103b528d009a80ab48309cd3df044158f1f88a7d401c"
+    },
+    {
+      "archive_path": "第十三章实验包/report_template.md",
+      "repository_path": "report_template.md",
+      "sha256": "60a5b46f260f48dc3745a59b9b1b4d0cfc1ed2838f759fb8175338a00f19099a"
+    },
+    {
+      "archive_path": "第十三章实验包/requirements-figures.txt",
+      "repository_path": "requirements-figures.txt",
+      "sha256": "e73c15bb500f168c701560310ef25a108ad26d6278609cd9eb5dd08cb6f3b922"
+    },
+    {
+      "archive_path": "第十三章实验包/requirements.txt",
+      "repository_path": "requirements.txt",
+      "sha256": "451082f099a39214a3fbc025937af6d367bb3cd15a329d56a2d7f8cc8188b964"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/hand_check_5_tasks.csv",
+      "repository_path": "results/ch13/generated_inputs/hand_check_5_tasks.csv",
+      "sha256": "878d3070852d1299f5fbf4971c168ee03df5ec17fa5d9f9b3d607231532c8352"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/migration_trace.csv",
+      "repository_path": "results/ch13/generated_inputs/migration_trace.csv",
+      "sha256": "f4a693e357cf908ab742d67fc503d017d4f44c68e308a4d272ff30f278c65092"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/resource_tasks.csv",
+      "repository_path": "results/ch13/generated_inputs/resource_tasks.csv",
+      "sha256": "b3138d517ef7c4ffd02c2ddb77fcd7a6d3c922991d03293f78f988dff118b762"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/tasks_test_medium.csv",
+      "repository_path": "results/ch13/generated_inputs/tasks_test_medium.csv",
+      "sha256": "4c0fc9cdfe9e56cf0ba6d7342ce8446232307d05938d46c75a02f798aca3bdf0"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/tasks_低负载.csv",
+      "repository_path": "results/ch13/generated_inputs/tasks_低负载.csv",
+      "sha256": "5f123d214bd2252b678ce649c8852bb7842430319659c8ad7d7d55ad91647937"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/tasks_接近饱和.csv",
+      "repository_path": "results/ch13/generated_inputs/tasks_接近饱和.csv",
+      "sha256": "9ea0f19e71062500b6d1986790e79d242836be98ac902533fb002e60d61ae48e"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/generated_inputs/tasks_过载.csv",
+      "repository_path": "results/ch13/generated_inputs/tasks_过载.csv",
+      "sha256": "77ca808994392cf5e705a758fa97458d2e09b1ed119a74e866de6853dd228909"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/hand_check_5_tasks_expected.json",
+      "repository_path": "results/ch13/hand_check_5_tasks_expected.json",
+      "sha256": "4f45199cf545adcc22fdecc814b0369032f836568c640515ac809f92cae7edc0"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/hand_check_5_tasks_reference.csv",
+      "repository_path": "results/ch13/hand_check_5_tasks_reference.csv",
+      "sha256": "326c6d10499a2f176559119c64915fda3adce21c8aeeb4a4c714de4cfdf5f70d"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/migration_summary.csv",
+      "repository_path": "results/ch13/migration_summary.csv",
+      "sha256": "48cd1d3dc7107d5236d6b59dca9503063fc0a6cda057479f1fb42d4459ec2583"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/migration_timeline.csv",
+      "repository_path": "results/ch13/migration_timeline.csv",
+      "sha256": "b698f1ad72c02c9fc51900cda38b83b1b7c3c007c4671f3913e63555bc994f45"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/migration_timeline.svg",
+      "repository_path": "results/ch13/migration_timeline.svg",
+      "sha256": "05aec5eb053fdbba7e2668320ff131407222bcec1fb26f0a2a4ceec255783e26"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/offloading_bandwidth_sensitivity.csv",
+      "repository_path": "results/ch13/offloading_bandwidth_sensitivity.csv",
+      "sha256": "14bba7130d5044084311ea410e6da7f52870baea9f6bc4fa527a773e73cf7f30"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/offloading_bandwidth_sensitivity.svg",
+      "repository_path": "results/ch13/offloading_bandwidth_sensitivity.svg",
+      "sha256": "d443fa1957639efacb2be802160ad0aa9adc85829570ff2cca8873fe870dfadd"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/offloading_delay.svg",
+      "repository_path": "results/ch13/offloading_delay.svg",
+      "sha256": "884cb7a9916b19502a07fd5891c5da2795711411c5e7f3b2fa39d04b8ae32939"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/offloading_run_metrics.csv",
+      "repository_path": "results/ch13/offloading_run_metrics.csv",
+      "sha256": "e9cdc53eecc897e94c0fe873690444a3f151f48b1c8cfabfb45615d3cbb2aacb"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/offloading_summary.csv",
+      "repository_path": "results/ch13/offloading_summary.csv",
+      "sha256": "c8c21feb7b57d3420c6c2013e7a7d78609119ed98fb932b34f26c67661285d57"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/offloading_task_log.csv",
+      "repository_path": "results/ch13/offloading_task_log.csv",
+      "sha256": "c1113da9556e31db42a8a585c0e5d0891a9279122410868ef00a504ddc05e3bd"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/qlearning_summary.csv",
+      "repository_path": "results/ch13/qlearning_summary.csv",
+      "sha256": "3d734b1c03491adce8f33d0ff3ffeae15e17d93c528825a5709aa1ba6a75b58f"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/qlearning_task_log.csv",
+      "repository_path": "results/ch13/qlearning_task_log.csv",
+      "sha256": "d12d0ddd8980da1bd1194286f5424d8a2bc111e833913b348f6d2e65f4dfa822"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/qlearning_test_runs.csv",
+      "repository_path": "results/ch13/qlearning_test_runs.csv",
+      "sha256": "2b529d52be7cb97cbacd6265bebdb7dd355bb3f6da4f4cddc28331de0d9a9a58"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/qlearning_training.csv",
+      "repository_path": "results/ch13/qlearning_training.csv",
+      "sha256": "754cc28b63a87652eba319272b5432632a12ee1fd1943e25ce22f9bda7f373bd"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/qlearning_training.svg",
+      "repository_path": "results/ch13/qlearning_training.svg",
+      "sha256": "e93bd2eaab7e26a6281674e9fc98676affab9319496a28d368323da09f05de93"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/resource_ontime.svg",
+      "repository_path": "results/ch13/resource_ontime.svg",
+      "sha256": "9c1a4505c03535841e382501a343ea11ac229aef85eeac406d331ea548d7333d"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/resource_run_metrics.csv",
+      "repository_path": "results/ch13/resource_run_metrics.csv",
+      "sha256": "021ec4302598356e2c9da361c9c885670508247522871bf467b9d8551b00379f"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/resource_summary.csv",
+      "repository_path": "results/ch13/resource_summary.csv",
+      "sha256": "e1071934d1cb38d6e2fb1f50801c30b8048ee36f05c3f37813d61e203c9d1a08"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/resource_task_log.csv",
+      "repository_path": "results/ch13/resource_task_log.csv",
+      "sha256": "75d9eb0c239bbb3b3f91e93b1763bc48ae0175c98de117443dbce9c7cc8e0168"
+    },
+    {
+      "archive_path": "第十三章实验包/results/ch13/run_manifest.json",
+      "repository_path": "results/ch13/run_manifest.json",
+      "sha256": "2c16d04509bc87fcdc75a118ff4907e22964a621f7cfa286bb035f8714e819b2"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/hand_check_5_tasks.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/hand_check_5_tasks.csv",
+      "sha256": "878d3070852d1299f5fbf4971c168ee03df5ec17fa5d9f9b3d607231532c8352"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/migration_trace.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/migration_trace.csv",
+      "sha256": "f4a693e357cf908ab742d67fc503d017d4f44c68e308a4d272ff30f278c65092"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/resource_tasks.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/resource_tasks.csv",
+      "sha256": "b3138d517ef7c4ffd02c2ddb77fcd7a6d3c922991d03293f78f988dff118b762"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/tasks_test_medium.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/tasks_test_medium.csv",
+      "sha256": "4c0fc9cdfe9e56cf0ba6d7342ce8446232307d05938d46c75a02f798aca3bdf0"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/tasks_低负载.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/tasks_低负载.csv",
+      "sha256": "5f123d214bd2252b678ce649c8852bb7842430319659c8ad7d7d55ad91647937"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/tasks_接近饱和.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/tasks_接近饱和.csv",
+      "sha256": "9ea0f19e71062500b6d1986790e79d242836be98ac902533fb002e60d61ae48e"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/generated_inputs/tasks_过载.csv",
+      "repository_path": "results/reference_ch13/generated_inputs/tasks_过载.csv",
+      "sha256": "77ca808994392cf5e705a758fa97458d2e09b1ed119a74e866de6853dd228909"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/hand_check_5_tasks_expected.json",
+      "repository_path": "results/reference_ch13/hand_check_5_tasks_expected.json",
+      "sha256": "4f45199cf545adcc22fdecc814b0369032f836568c640515ac809f92cae7edc0"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/hand_check_5_tasks_reference.csv",
+      "repository_path": "results/reference_ch13/hand_check_5_tasks_reference.csv",
+      "sha256": "aac48913687030cde2c2a5545e1bf84011085e2cd34d404490460fa4e95c277d"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/migration_summary.csv",
+      "repository_path": "results/reference_ch13/migration_summary.csv",
+      "sha256": "48cd1d3dc7107d5236d6b59dca9503063fc0a6cda057479f1fb42d4459ec2583"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/migration_timeline.csv",
+      "repository_path": "results/reference_ch13/migration_timeline.csv",
+      "sha256": "b698f1ad72c02c9fc51900cda38b83b1b7c3c007c4671f3913e63555bc994f45"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/migration_timeline.svg",
+      "repository_path": "results/reference_ch13/migration_timeline.svg",
+      "sha256": "05aec5eb053fdbba7e2668320ff131407222bcec1fb26f0a2a4ceec255783e26"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/offloading_bandwidth_sensitivity.csv",
+      "repository_path": "results/reference_ch13/offloading_bandwidth_sensitivity.csv",
+      "sha256": "14bba7130d5044084311ea410e6da7f52870baea9f6bc4fa527a773e73cf7f30"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/offloading_bandwidth_sensitivity.svg",
+      "repository_path": "results/reference_ch13/offloading_bandwidth_sensitivity.svg",
+      "sha256": "d443fa1957639efacb2be802160ad0aa9adc85829570ff2cca8873fe870dfadd"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/offloading_delay.svg",
+      "repository_path": "results/reference_ch13/offloading_delay.svg",
+      "sha256": "884cb7a9916b19502a07fd5891c5da2795711411c5e7f3b2fa39d04b8ae32939"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/offloading_run_metrics.csv",
+      "repository_path": "results/reference_ch13/offloading_run_metrics.csv",
+      "sha256": "d89fdeb303e20425a9b879aeea2258b74338d63362231886914b3ab90d0ed27b"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/offloading_summary.csv",
+      "repository_path": "results/reference_ch13/offloading_summary.csv",
+      "sha256": "353914a74ea9c27325dc12841c79fecaa920899665ea1edeb7cce1ed6448c898"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/offloading_task_log.csv",
+      "repository_path": "results/reference_ch13/offloading_task_log.csv",
+      "sha256": "8ec1d45cfcbde54806b9b0d7398d3566d5abce0ea4cfab863f0a37d1a792448f"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/qlearning_summary.csv",
+      "repository_path": "results/reference_ch13/qlearning_summary.csv",
+      "sha256": "d86da2efe06e3291f2a20c12e2303e48fc4c44d84297382778e45864bcd98986"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/qlearning_task_log.csv",
+      "repository_path": "results/reference_ch13/qlearning_task_log.csv",
+      "sha256": "7ae8b4d5fac5769bdb83c943d456a26f4b4519dd5b11fe980b661d516e904875"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/qlearning_test_runs.csv",
+      "repository_path": "results/reference_ch13/qlearning_test_runs.csv",
+      "sha256": "e81f49eaffd3ee8b08af7574564578ed7e3a426a042de3e96623025017fbb4bf"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/qlearning_training.csv",
+      "repository_path": "results/reference_ch13/qlearning_training.csv",
+      "sha256": "754cc28b63a87652eba319272b5432632a12ee1fd1943e25ce22f9bda7f373bd"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/qlearning_training.svg",
+      "repository_path": "results/reference_ch13/qlearning_training.svg",
+      "sha256": "8239c179589d8a15e68457c409d642f1f633ed2f2aeae641bf3d7a2217f58301"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/resource_ontime.svg",
+      "repository_path": "results/reference_ch13/resource_ontime.svg",
+      "sha256": "9c1a4505c03535841e382501a343ea11ac229aef85eeac406d331ea548d7333d"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/resource_run_metrics.csv",
+      "repository_path": "results/reference_ch13/resource_run_metrics.csv",
+      "sha256": "021ec4302598356e2c9da361c9c885670508247522871bf467b9d8551b00379f"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/resource_summary.csv",
+      "repository_path": "results/reference_ch13/resource_summary.csv",
+      "sha256": "e1071934d1cb38d6e2fb1f50801c30b8048ee36f05c3f37813d61e203c9d1a08"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/resource_task_log.csv",
+      "repository_path": "results/reference_ch13/resource_task_log.csv",
+      "sha256": "75d9eb0c239bbb3b3f91e93b1763bc48ae0175c98de117443dbce9c7cc8e0168"
+    },
+    {
+      "archive_path": "第十三章实验包/results/reference_ch13/run_manifest.json",
+      "repository_path": "results/reference_ch13/run_manifest.json",
+      "sha256": "881812dbf5d4e95825875e3c7f6a9ccfac05132b85468b52f85331e609e7d04e"
+    },
+    {
+      "archive_path": "第十三章实验包/results/textbook_verified/real_probe_loopback.csv",
+      "repository_path": "results/textbook_verified/real_probe_loopback.csv",
+      "sha256": "de64fe3c55dec41d823922792057b15ca81181c8f5f3732d86c87762aca90b1f"
+    },
+    {
+      "archive_path": "第十三章实验包/results/textbook_verified/real_probe_loopback_summary.json",
+      "repository_path": "results/textbook_verified/real_probe_loopback_summary.json",
+      "sha256": "3e2a97c9e4b98f7c91a0c84d53b8c04cf4a39af6e332312104b3e4c37ce494dc"
+    },
+    {
+      "archive_path": "第十三章实验包/results/textbook_verified/server_requests_loopback.csv",
+      "repository_path": "results/textbook_verified/server_requests_loopback.csv",
+      "sha256": "f7624ef8f20f3a76929d8b22b6ad6f8e6dbd3dc150e735d6f97b716ae06c2d4b"
+    },
+    {
+      "archive_path": "第十三章实验包/REVISION_20261025.md",
+      "repository_path": "REVISION_20261025.md",
+      "sha256": "76eecd4f419cfc5334a8cf4388c8b4c2fc1b60264da08797af36782c418aadb7"
+    },
+    {
+      "archive_path": "第十三章实验包/REVISION_CH13_R3.md",
+      "repository_path": "REVISION_CH13_R3.md",
+      "sha256": "9159ce4c2d93d482ab2e6fc6387db6762bb4b98a9069aca71445a39184a82e87"
+    },
+    {
+      "archive_path": "第十三章实验包/run_all.py",
+      "repository_path": "run_all.py",
+      "sha256": "d0b9141011f1887b65742b9a32e80d92c702db04aa0c676ceac0222e9e8f04f0"
+    },
+    {
+      "archive_path": "第十三章实验包/run_cross_chapters.py",
+      "repository_path": "run_cross_chapters.py",
+      "sha256": "8991ac50bd5a4507aa5fde91a8ad651e61b53858db692aee7a57aba07dc4e2a1"
+    },
+    {
+      "archive_path": "第十三章实验包/RUN_VERIFICATION.md",
+      "repository_path": "RUN_VERIFICATION.md",
+      "sha256": "a440e4a841108f6ecb5898b5a718076b67e27e13faa5f8b7a7bcc6deb679d110"
+    },
+    {
+      "archive_path": "第十三章实验包/RUN_VERIFICATION_COMMON.md",
+      "repository_path": "RUN_VERIFICATION_COMMON.md",
+      "sha256": "727bf1f04766ae26b03faf55d6c8a743524ec8cabba55a206dc0d880b89736f2"
+    },
+    {
+      "archive_path": "第十三章实验包/scripts/make_figures.py",
+      "repository_path": "scripts/make_figures.py",
+      "sha256": "30c95a1ba881a5184d4d83bde3c06e2a5850913ea3db84f2a7a494e0fd5cfb8d"
+    },
+    {
+      "archive_path": "第十三章实验包/scripts/plot_training.py",
+      "repository_path": "scripts/plot_training.py",
+      "sha256": "9a8dc0e0a9dee4ee146ee065ba4438409678e942565eb8b84705999b36da168e"
+    },
+    {
+      "archive_path": "第十三章实验包/src/__init__.py",
+      "repository_path": "src/__init__.py",
+      "sha256": "2ab35ad052248b27221177e8c4205eb26095052102e14d0246ac0503058922e5"
+    },
+    {
+      "archive_path": "第十三章实验包/src/common.py",
+      "repository_path": "src/common.py",
+      "sha256": "75f976afe56f77e7d4dde82c7359b5d33a934422c842b6ac5a634e8f4e0b9913"
+    },
+    {
+      "archive_path": "第十三章实验包/src/config.py",
+      "repository_path": "src/config.py",
+      "sha256": "7055b99d80fb40baa1397dc689770cc1a10e83a372ed146e29cff9592c9df86b"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_chapter11_partition.py",
+      "repository_path": "src/experiment_chapter11_partition.py",
+      "sha256": "3efca320b727d0751ee74b12badb62ec0cb83b908d081741bde0b0d32d7c0d33"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_chapter12_trust.py",
+      "repository_path": "src/experiment_chapter12_trust.py",
+      "sha256": "b92fffdf6dae25861ba3ddbe29a82612247ab141b5fa356165f15b18fca8b9dc"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_chapter4_model.py",
+      "repository_path": "src/experiment_chapter4_model.py",
+      "sha256": "d86c720ff4daeac6e2579cdaf43df020824e774062bda0e3fc5a39e378b60d45"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_chapter5_dvfs.py",
+      "repository_path": "src/experiment_chapter5_dvfs.py",
+      "sha256": "fe5fcf9f977d85874a033732f00f56ed541280e53d39cf97001bdc454278da6b"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_migration.py",
+      "repository_path": "src/experiment_migration.py",
+      "sha256": "fee5f044ad78d0953684ad7c30ddfd381191b724bae78d9b2c395863a0b0885e"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_offloading.py",
+      "repository_path": "src/experiment_offloading.py",
+      "sha256": "81386bd362fd3be08ff24743000000c24b5a611a94874f4742f190737d4e76df"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_qlearning.py",
+      "repository_path": "src/experiment_qlearning.py",
+      "sha256": "d8c9bbe13c008bdf096e12d417380dc5f6af0d3291576028f5bc4af423ebea78"
+    },
+    {
+      "archive_path": "第十三章实验包/src/experiment_resources.py",
+      "repository_path": "src/experiment_resources.py",
+      "sha256": "a91da48cb542ce55794ca48c1bacc975d4bda2e4ffde116451cc9f95904996cc"
+    },
+    {
+      "archive_path": "第十三章实验包/src/metrics.py",
+      "repository_path": "src/metrics.py",
+      "sha256": "eac47d24411697b23381f5ab73387911c6b8ab681c6083fa627831bd23fba69f"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_ch13_audit.py",
+      "repository_path": "tests/test_ch13_audit.py",
+      "sha256": "20ac3e2d4f6a3ffa55f5981e8c59d09142fd9dd7b2d53b091540a41ae8fa887f"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_ch13_failures.py",
+      "repository_path": "tests/test_ch13_failures.py",
+      "sha256": "7429f60202445e481fa54dfd14856d4293a259eccf2653d4624ce8047cd75bd2"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_ch13_revision.py",
+      "repository_path": "tests/test_ch13_revision.py",
+      "sha256": "0fbb906632324eca65e930c83ace7b7761b670c53a282ca2efab8e8373261d71"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_chapter11_partition.py",
+      "repository_path": "tests/test_chapter11_partition.py",
+      "sha256": "48c07b303f33d33b2a9c81399aeb634c622045edb2a1590209d1e9020f67253b"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_chapter12_trust.py",
+      "repository_path": "tests/test_chapter12_trust.py",
+      "sha256": "af719c6ccab044c2ffbb12115524cc4e46e66bc242a928aa0d2f6ebc1bbd6e48"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_chapter4_model.py",
+      "repository_path": "tests/test_chapter4_model.py",
+      "sha256": "37b87f7b6d0556700e023d92f51109da1e3c269fbcaf4d5418122709a3e97b37"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_chapter5_dvfs.py",
+      "repository_path": "tests/test_chapter5_dvfs.py",
+      "sha256": "c370f95b8e9060c7f91d702ed13b470bd5c17b35943656a914ee2a3409f3f681"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_common.py",
+      "repository_path": "tests/test_common.py",
+      "sha256": "c85428644c831e86fcc78ee992a9e5d398074b20b29689ce398e011132fd0397"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_config.py",
+      "repository_path": "tests/test_config.py",
+      "sha256": "ff173868c4de4ab7683e27688535ded5cfdcdb4486113b9cdd249897163da64c"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_hand_check.py",
+      "repository_path": "tests/test_hand_check.py",
+      "sha256": "4a47777a0b44942667630963371af2c2df3ee38a518d6d56f898f863906ea582"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_metrics.py",
+      "repository_path": "tests/test_metrics.py",
+      "sha256": "03202e0d7e7f409315aa2c013cda6b706b2bd8b385af725656e6bb13b8c34b46"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_real_probe.py",
+      "repository_path": "tests/test_real_probe.py",
+      "sha256": "8bed758d33325b3a842e3817d0bcf7a44b8071648ccfbedd3e107dfe92cd11a6"
+    },
+    {
+      "archive_path": "第十三章实验包/tests/test_single_machine_scope.py",
+      "repository_path": "tests/test_single_machine_scope.py",
+      "sha256": "293ab2ed5d7db404bf75b23311bba4e680c2fca9d42f7567dbafc1d478e943b3"
+    },
+    {
+      "archive_path": "第十三章实验包/VERSION.txt",
+      "repository_path": "VERSION.txt",
+      "sha256": "0ed8883977f142d1be8035a401951e2ee386e2a224510ef726023ea59d901e49"
+    },
+    {
+      "archive_path": "第十三章实验包/复核记录.md",
+      "repository_path": "复核记录.md",
+      "sha256": "7ad93e13d1dd6cb76ef1040b61e6e0cb25fa00cf63213d9016edd9f71ebf3489"
+    },
+    {
+      "archive_path": "第十三章实验包/资源许可待确认.md",
+      "repository_path": "资源许可待确认.md",
+      "sha256": "0cb31dce0a85f2254eb7c07bb46eed134f32e4f48e659311e7b7d79710d03d05"
+    }
+  ],
+  "added_files": [
+    "README.md",
+    ".gitignore",
+    ".gitattributes",
+    "docs/REPOSITORY_SCOPE.md",
+    "source_manifest.json",
+    "chapter01/README.md"
+  ],
+  "omitted_files": [
+    "自检记录.md"
+  ],
+  "scope": [
+    "chapter01",
+    "chapter13"
+  ],
+  "chapter01": {
+    "source": "整合版本/第一章(1)/提交版本/配套代码/chapter1_latency.py",
+    "repository_path": "chapter01/chapter1_latency.py",
+    "sha256": "43512c002734c9bd957568391e4425faf13ca6f6bcef9054e4d02a70e8771d67",
+    "verification_basis": "最终修订版/整合版.docx 第1章例1-3及习题4"
+  }
+}
